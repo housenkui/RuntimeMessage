@@ -13,6 +13,7 @@
 		EF6E4ADA1E861CA4003AEE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6E4AD81E861CA4003AEE75 /* Main.storyboard */; };
 		EF6E4ADC1E861CA4003AEE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6E4ADB1E861CA4003AEE75 /* Assets.xcassets */; };
 		EF6E4ADF1E861CA4003AEE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6E4ADD1E861CA4003AEE75 /* LaunchScreen.storyboard */; };
+		EF6E4AE81E8629A1003AEE75 /* UIViewController+viewWillAppear.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6E4AE71E8629A1003AEE75 /* UIViewController+viewWillAppear.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EF6E4ADB1E861CA4003AEE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6E4ADE1E861CA4003AEE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6E4AE01E861CA4003AEE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6E4AE61E8629A0003AEE75 /* UIViewController+viewWillAppear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+viewWillAppear.h"; sourceTree = "<group>"; };
+		EF6E4AE71E8629A1003AEE75 /* UIViewController+viewWillAppear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+viewWillAppear.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				EF6E4AD31E861CA4003AEE75 /* AppDelegate.m */,
 				EF6E4AD51E861CA4003AEE75 /* ViewController.h */,
 				EF6E4AD61E861CA4003AEE75 /* ViewController.m */,
+				EF6E4AE61E8629A0003AEE75 /* UIViewController+viewWillAppear.h */,
+				EF6E4AE71E8629A1003AEE75 /* UIViewController+viewWillAppear.m */,
 				EF6E4AD81E861CA4003AEE75 /* Main.storyboard */,
 				EF6E4ADB1E861CA4003AEE75 /* Assets.xcassets */,
 				EF6E4ADD1E861CA4003AEE75 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6E4AE81E8629A1003AEE75 /* UIViewController+viewWillAppear.m in Sources */,
 				EF6E4AD71E861CA4003AEE75 /* ViewController.m in Sources */,
 				EF6E4AD41E861CA4003AEE75 /* AppDelegate.m in Sources */,
 				EF6E4AD11E861CA4003AEE75 /* main.m in Sources */,
